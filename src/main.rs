@@ -1,5 +1,5 @@
-use calc1::{add, sub};
-use calc2::{multiply, rate};
+use calculator-thigon::calc1::{add, sub};
+use calculator-thigon::calc2::{multiply, rate};
 
 fn main() {
     println!("\n--- Testando a Biblioteca Calculadora ---");
