@@ -1,6 +1,6 @@
 [package]
 name = "calculator-thigon"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 description = "Biblioteca simples para operações com u32"
 license = "MIT"

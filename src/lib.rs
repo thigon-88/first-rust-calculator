@@ -1,10 +1,12 @@
 pub mod calc1;
 pub mod calc2;
+pub mod calc3;
 
 #[cfg(test)]
 mod tests {
     use super::calc1::{add, sub};
     use super::calc2::{multiply, rate};
+    use super::calc3::{pow, log};
     
     #[test]
     fn test_add() {
@@ -28,5 +30,17 @@ mod tests {
     fn test_rate() {
         assert_eq!(rate(30, 2), 15);
         assert_eq!(rate(30, 0), 0);
+    }
+    
+    #[test]
+    fn test_pow() {
+        assert_eq!(pow(2, 3), 8);
+        assert_eq!(pow(64, 2), 4096);
+    }
+    
+    #[test]
+    fn test_log() {
+        assert_eq!(log(100, 10), 2.0);
+        assert_eq!(log(4096, 2), 12.0)
     }
 }
