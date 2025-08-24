@@ -1,5 +1,5 @@
-use calculator::calc1::{add, sub};
-use calculator::calc2::{multiply, rate};
+use calc1::{add, sub};
+use calc2::{multiply, rate};
 
 fn main() {
     println!("\n--- Testando a Biblioteca Calculadora ---");
